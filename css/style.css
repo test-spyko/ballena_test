@@ -1,0 +1,213 @@
+@charset "utf-8";
+/* CSS Document */
+body{ font-family: 'Kreon', serif; font-size:16px; }
+.img-responsive{ margin:0 auto;}
+.no_padding{ padding:0 !important;}
+.no_margin{ margin:0 !important;}
+
+/*---------------------------------------Header Section----------------------------------------------*/
+.home_content{background:url(../images/content_bg.jpg); background-size:cover;}
+.cust_logo{ position:absolute; width:100%; text-align:center; margin-top:-40px;}
+.cust_logo a img{ position:relative; z-index:99;}
+.top_nav{background-color:#FFF; border-top:3px solid #e11a21; border-bottom:3px solid #e11a21;outline-offset: 3px; margin-top:40px; display:inline-block;width:100%;}
+.top_nav .inner_border{ border-top:4px solid #014b88; border-bottom:4px solid #014b88; display:inline-block; width:100%;}
+.top_nav .thin_border{ border-top:1px solid #0f3151; border-bottom:1px solid #0f3151;}
+.top_nav .navbar{ margin-bottom:0; border-radius:0; margin-top:2px; }
+.top_nav .navbar-default{ background-color:#fff; border-color:transparent;}
+.top_nav .navbar-nav > li > a{ font-size:22px; color:#014b88; text-transform:uppercase; padding:20px 20px;}
+.top_nav .navbar-nav > li > a:hover{color:#e11a21;}
+.top_nav .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus{ background-color:transparent; color:#e11a21;}
+/*---------------------------------------End Header Section------------------------------------------*/
+
+/*---------------------------------------Banner Section----------------------------------------------*/
+/*---------------------------------------End Banner Section------------------------------------------*/
+
+/*---------------------------------------Content Section----------------------------------------------*/
+.home_content_inner{ padding:140px 0 170px 0; color:#ffffff;}
+.home_content_inner h1{color:#ffffff; font-size:45px; margin-top:0;}
+.home_content_inner h3{ font-size:30px; margin-bottom:15px;}
+.home_content_inner h4{ font-size:35px; width:70%; margin:0 auto; line-height:50px; margin-bottom:70px;}
+.home_content_inner p{ font-size:25px;}
+/*---------------------------------------End Content Section------------------------------------------*/
+
+
+/*---------------------------------------Starting Cart Page Css---------------------------------------*/
+.light_blackish{ background:url(../images/light_black.png) repeat;}
+.dark_blackish{ background:url(../images/dark_blackish.png) repeat;}
+.dark_blackish ul{ display:block;}
+.cart_page{ padding-top:50px; padding-bottom:100px;}
+.cart_page  h2{ font-size:24px;}
+.cart_page table tr th{font-size:20px; font-weight:100;}
+.cart_page table tr td{ font-size:16px; font-weight:100;}
+.cart_page table tr td,.cart_page table tr th{ border:0;}
+.cart_page table tr td a{ color:white; padding-left:10%;}
+.cart_page .table-striped > tbody > tr:nth-child(2n+1) > td, .table-striped > tbody > tr:nth-child(2n+1) > th{ background:none; background:url(../images/light_black.png) repeat; }
+.cart_page .red_font{color:#e11a21;}
+.cart_page .bottom_links a{ color:#014b88;}
+.cart_page .bottom_links td:nth-child(2) a{color:#e11a21;}
+.cart_page .second_table{ float:right; margin-top:-18px;}
+/*---------------------------------------Ending Cart Page Css---------------------------------------*/
+
+
+
+
+/*---------------------------------------Starting Select Page Css---------------------------------------*/
+.select_page{ margin-top:-78px;}
+.select_page img{ position:relative; z-index:0;}
+.select_page_bot h2{ font-size:30px;  margin-top:5px;}
+.select_page_bot .margin_top{ margin-top:10px;}
+.select_page_bot .light_blackish{ padding-top:15px; padding-bottom:15px;}
+.select_page_bot .cust_btn{ border-radius:0; font-size:24px; color:#014b88; width:100%;}
+.select_page_bot select{ float:right;}
+.prev_event_detail .item{ margin:0 auto; width:30%; padding:10px 0;}
+
+.select_page_bot{margin-top: 50px;position: relative; z-index: 999;}
+.select_page_bot .cust_form{  position: relative;}
+.select_page_bot .price_range_img{float: right; width: 130px;}
+.select_page_bot form label{ font-size:16px; font-weight:100;}
+
+.select_page_bot .select_2{ font-size:16px; font-weight:400; margin-top:10px; display:block;}
+.map_title_wd_graph{display:inline-block; ;width:100%; border-radius:8px; position:relative; z-index:999; color:white;}
+/*---------------------------------------Ending   Select Page Css---------------------------------------*/
+
+
+
+/*---------------------------------------Starting Second Select Page Css--------------------------------*/
+.select_page2{ }
+.select_page2 img{ }
+.select_page_bot2 h2{ font-size:30px;  margin-top:5px;}
+.select_page_bot2 .margin_top{ margin-top:10px;}
+.select_page_bot2 .light_blackish{ padding-top:15px; padding-bottom:15px;}
+.select_page_bot2 .cust_btn{ border-radius:0; font-size:24px; color:#014b88; width:100%;}
+.select_page_bot2 select{ float:right;}
+
+.select_page_bot2{position: relative; z-index: 999;}
+.select_page_bot2 .cust_form{  position: relative; margin-top:-7%;}
+.select_page_bot2 .price_range_img{ float:right;}
+.select_page_bot2 form label{ font-size:16px; font-weight:100;}
+
+.select_page_bot2 .select_2{ font-size:16px; font-weight:400; margin-top:10px; display:block;}
+/*---------------------------------------Ending   Select Page Css---------------------------------------*/
+
+
+
+
+/*---------------------------------------Starting Form Page --------------------------------------------*/
+.form_page{padding-top:50px;}
+.form_page h2{ margin-top:15px;}
+.form_page .form_div{ margin-top:5px; padding-top:8px; padding-bottom:95px; font-size:24px;}
+.form_page .form_div form input{ border-radius:0; border:1px solid #E11A21;}
+.form_page .form_div form input[type="radio"]{ display:inline-block; }
+.form_page .form_div form .radio_div{ text-align:right;}
+/*---------------------------------------Ending Form Page ----------------------------------------------*/
+
+
+
+
+/*---------------------------------------Starting Schedule Page ----------------------------------------*/
+.slider .light_blackish{ padding-top:95px; padding-bottom:40px;}
+.slider .view_by_month{ margin-top:45px;}
+.slider .view_by_month h2{ font-size:24px; font-size:24px; color:#FFF;}
+.slider .view_by_month ul{display:inline-block; width:100%;text-align:center; margin:0px;}
+.slider .view_by_month ul li a{ color:#FFF; line-height:45px;}
+.slider .view_by_month ul li a:hover{color:#005596; text-decoration:none;}
+.slider .view_by_month ul li:first-child{padding-left:7px;}
+.slider .view_by_month ul li{margin: 0 15px;}
+
+.no_item  { min-width:300px;}
+.no_item .cust_slide {padding: 45px 0 !important; text-align:center; width:100%;}
+.no_item .cust_slide h1{ margin-bottom:0;}
+.flipster{ min-height:500px;}
+.cust_slide{ border:4px solid #FFF; padding:45px 80px; display:inline-block;}
+.cust_slide h1{color:#FFF; margin:0; margin-bottom:45px; font-size:30px;text-align:center;}
+.cust_slide h3{ font-size:24px; color:white; text-align:center; font-weight:100;}
+.cust_slide .vs{ font-size:34px; margin-top:34%; color:white; width:100%; text-align:center;}
+.cust_slider_div{ padding-top:25px; margin-top:-50px;}
+#calendar .flip-content img {vertical-align: middle;margin: auto;height: 80px;width: auto;}
+
+#Slider .upcomming_events{ margin-top:45px; color:#FFF; display:inline-block; width:100%;}
+#Slider .upcomming_events h2{font-size:24px; color:#FFF; float:left;}
+#Slider .upcomming_events .owl-carousel .owl-item{ min-width:150px; padding:25px; text-align:center;}
+#Slider .upcomming_events .owl-carousel .owl-item p{ font-size:16px;}
+#Slider .upcomming_events .owl-carousel .owl-item h6{ font-size:15px;}
+#Slider .upcomming_events .owl-carousel .owl-item p span{ display:block; width:100%; text-align:center;}
+#Slider .upcomming_events .right_upcom_arrow{float:right; margin-top:20px;}
+#Slider .upcomming_events .right_upcom_arrow .upcomm_left,#Slider .upcomming_events .right_upcom_arrow .upcomm_right{ padding:5px 8px; text-align:center; color:#FFF; background:url(../images/dark_blackish.png); cursor:pointer; display:inline-block;}
+/*---------------------------------------Ending Schedule Page ------------------------------------------*/
+
+
+/*---------------------------------------Foooter Section----------------------------------------------*/
+.footer{ background-color:#0c2e61; border-top:4px solid #e21921;}
+.footer .inner{  border-top:4px solid #ffffff; text-align:center;  padding:36px 0;}
+.footer .footer_sm_logo{ float:right; position:absolute; right:0;  top: -70px;}
+.footer ul{ margin:0 auto;}
+.footer ul li{ width:60px;}
+.footer ul li a{}
+.footer ul li a:hover{ opacity:0.8;}
+/*---------------------------------------End Footer Section-------------------------------------------*/
+
+
+
+/*---------------------------------------Starting Media Query Section---------------------------------*/
+/* Large desktop */
+@media (min-width: 1200px) {
+	
+	 }
+
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 991px) {
+	.top_nav .navbar-nav > li > a{ padding:20px 10px; font-size:18px;}
+	.select_page_bot .cust_btn{ font-size:16px;}
+	#Slider .view_by_month ul li{margin: 0 0px;}
+	
+	}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+	.cust_logo {/*margin-top: -100px;*/width:auto; float:left;}
+	.home_content_inner h1{font-size:30px;}
+	.home_content_inner h4{ font-size:20px; line-height:30px;}
+	.navbar-default .navbar-toggle{ border-color:#103454;}
+	.navbar-default .navbar-toggle .icon-bar{ background-color:#103454;}
+	.home_content_inner p{font-size:20px;}
+	.home_content_inner h3{ font-size:25px;}
+	.home_content_inner {padding: 100px 0 100px 0;}
+	
+	/*----Select Page-----*/
+	.select_page_bot .margin_top {display: inline-block; width: 100%;}
+	.select_page_bot .price_range_img{ float:none; margin:0 auto;}
+	.navbar-default .navbar-collapse, .navbar-default .navbar-form {   padding-top: 60px; border-top:0;}
+	.select_page{ margin-top:20px;}
+	.select_page_bot .price_range_img{width:100%;}
+	.prev_event_detail .item{ width:50%;}
+	/*----Slider Page ----*/
+	#Slider .light_blackish{ padding-top:30px; padding-bottom:20px;}
+	#Slider .upcomming_events .owl-carousel .owl-item{ padding:5px;}
+	#Slider .upcomming_events .right_upcom_arrow .upcomm_left, #Slider .upcomming_events .right_upcom_arrow .upcomm_right{ padding:5px;}
+	#Slider .view_by_month ul{ width:auto;}
+	#Slider .view_by_month ul li{margin: 0 0px;}
+	.cust_slide { padding:25px 50px;}
+	.cust_slide .vs{ margin-top:0;font-size:30px;}
+	.cust_slide h1{ margin:0 0 10px; font-size:18px;}
+	.cust_slide h3{ margin-top:10px;}
+	
+	#checkout_input_container{width:100%;}
+	#header_text{width:60%;}
+	#venue_map_container{ top:-700px !important;}
+	#button_container{ top:-700px !important;}
+	#checkout_input_container{ width:100% !important;}
+	#checkout_cost_container{ width:100% !important;}
+	}
+
+/* Landscape phones and down */
+@media (max-width: 480px) {
+	.cust_logo {width:200px;}
+	.navbar-toggle{ margin-right:0;}
+	.cart_page .second_table{ float:left; width:100%; margin-top:0;}
+	.cart_page table tr th{ font-size:14px;}
+	.cart_page table tr td {font-size: 12px;}
+	
+	#header_text{width:90%;}
+
+	 }
+/*---------------------------------------End Media Query Section--------------------------------------*/

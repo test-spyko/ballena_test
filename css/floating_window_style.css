@@ -1,0 +1,18 @@
+.main_content_1 
+{ 
+	font-size:14;
+	color: #FFFFFF;
+	padding: 0px;
+}
+
+center
+{
+	text-align: center;
+	color: #FFFFFF;
+}
+
+a:link
+{
+   color:#FF0000;
+   text-decoration: underline;
+}
